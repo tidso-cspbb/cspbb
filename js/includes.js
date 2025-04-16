@@ -10,3 +10,10 @@ function includeHTML(tagId, filePath) {
       document.getElementById(tagId).innerHTML = data;
     });
 }
+
+function toggleDropdown(event) {
+  event.preventDefault();
+  const dropdown = event.target.closest('.dropdown');
+  const content = dropdown.querySelector('.dropdown-content');
+  content.style.display = content.style.display === 'block' ? 'none' : 'block';
+}
