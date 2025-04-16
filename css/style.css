@@ -31,7 +31,7 @@ footer {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 250px;
   margin: 0 auto;
   padding: 0 1rem; /* adds slight padding on phones too */
 }
