@@ -35,3 +35,48 @@ footer {
   margin: 0 auto;
   padding: 0 1rem; /* adds slight padding on phones too */
 }
+
+nav ul.navbar {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+nav ul.navbar li {
+  position: relative;
+}
+
+nav ul.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  display: block;
+}
+
+/* Dropdown styles */
+nav ul.navbar .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3c3c6e;
+  list-style: none;
+  min-width: 180px;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+nav ul.navbar .dropdown-content li a {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  text-align: left;
+}
+
+/* Desktop hover fallback */
+@media (hover: hover) {
+  nav ul.navbar .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
