@@ -29,3 +29,9 @@ footer {
   margin-top: 2rem;
   font-size: 0.9rem;
 }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem; /* adds slight padding on phones too */
+}
