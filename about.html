@@ -3,29 +3,76 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About | CSPBB</title>
+
+  <title>About CSPBB | Center for the Study of Photoemission and Bright Beams</title>
+  <meta name="description" content="Learn about the mission, founder, and scientific goals of the Center for the Study of Photoemission and Bright Beams (CSPBB), a nonprofit advancing beam and photoemission physics.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph (for social media previews) -->
+  <meta property="og:title" content="About CSPBB | Center for the Study of Photoemission and Bright Beams" />
+  <meta property="og:description" content="Meet the founder and explore the mission of CSPBB in advancing photoemission and bright beam physics." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://cspbb.org/about.html" />
+  <meta property="og:image" content="https://cspbb.org/assets/preview.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About CSPBB",
+    "url": "https://cspbb.org/about.html",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Center for the Study of Photoemission and Bright Beams",
+      "alternateName": "CSPBB",
+      "url": "https://cspbb.org",
+      "logo": "https://cspbb.org/favicon.ico",
+      "description": "A nonprofit research center dedicated to advancing the scientific understanding of photoemission phenomena, bright electron beams, and related physics.",
+      "founder": {
+        "@type": "Person",
+        "name": "Truman W. Idso"
+      },
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "AZ",
+          "addressCountry": "US"
+        }
+      }
+    }
+  }
+  </script>
+
+  <!-- Styles -->
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <div id="header"></div>
+  <header id="header"></header>
 
   <main>
     <div class="container">
-    <section>
-      <h2>About Us</h2>
-      <p>
-        The <i>Center for the Study of Photoemission and Bright Beams</i> (CSPBB) is a nonprofit research organization
-        dedicated to advancing the scientific understanding of photoemission phenomena and the generation of ultra-bright electron beams.
-      </p>
-      <p>
-        Founded by Truman W. Idso, CSPBB supports experimental and theoretical work in condensed matter physics,
-        photoemission, and beam science, with applications ranging from particle accelerators to ultrafast electron microscopy and diffraction.
-        We aim to promote and examine rigorous, transparent research in fundamental photoemission and beam science. 
-      </p>
-    </section>
+      <section>
+        <h1>About Us</h1>
+        <p>
+          The <i>Center for the Study of Photoemission and Bright Beams</i> (CSPBB) is a nonprofit research organization
+          dedicated to advancing the scientific understanding of photoemission phenomena and the generation of ultra-bright electron beams.
+        </p>
+        <p>
+          Founded by Truman W. Idso, CSPBB supports experimental and theoretical work in condensed matter physics,
+          photoemission, and beam science, with applications ranging from particle accelerators to ultrafast electron microscopy and diffraction.
+          We aim to promote and examine rigorous, transparent research in fundamental photoemission and beam science. 
+        </p>
+      </section>
+    </div>
   </main>
 
-  <div id="footer"></div>
+  <footer id="footer"></footer>
 
   <script src="js/includes.js"></script>
 </body>
+</html>
