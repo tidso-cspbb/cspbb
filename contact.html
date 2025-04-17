@@ -3,29 +3,80 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact | CSPBB</title>
+
+  <title>Contact CSPBB | Center for the Study of Photoemission and Bright Beams</title>
+  <meta name="description" content="Contact the Center for the Study of Photoemission and Bright Beams (CSPBB) via email or postal mail. Reach out with questions about our research or organization.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph (for social previews) -->
+  <meta property="og:title" content="Contact CSPBB | Center for the Study of Photoemission and Bright Beams" />
+  <meta property="og:description" content="Email or write to the Center for the Study of Photoemission and Bright Beams in Tempe, AZ." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cspbb.org/contact.html" />
+  <meta property="og:image" content="https://cspbb.org/assets/preview.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact CSPBB",
+    "url": "https://cspbb.org/contact.html",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Center for the Study of Photoemission and Bright Beams",
+      "url": "https://cspbb.org",
+      "logo": "https://cspbb.org/favicon.ico",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "tidso@cspbb.org",
+        "contactType": "General Inquiries",
+        "availableLanguage": "English"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "916 East Loma Vista Drive",
+        "addressLocality": "Tempe",
+        "addressRegion": "AZ",
+        "postalCode": "85282",
+        "addressCountry": "US"
+      }
+    }
+  }
+  </script>
+
+  <!-- Styles -->
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <div id="header"></div>
+  <header id="header"></header>
 
   <main>
     <div class="container">
-    <section>
-      <h2>Contact Us</h2>
-      <p>If you'd like to get in touch with us, please reach out using the information below.</p>
+      <section>
+        <h1>Contact Us</h1>
+        <p>If you'd like to get in touch with us, please reach out using the information below.</p>
 
-      <ul>
-        <li><strong>Email:</strong> <a href="mailto:tidso@cspbb.org">tidso@cspbb.org</a></li>
-        <li><strong>Address:</strong><br />
-            Center for the Study of Photoemission and Bright Beams<br />
-            916 East Loma Vista Drive<br />
-            Tempe, AZ 85282</li>
-      </ul>
-    </section>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:tidso@cspbb.org">tidso@cspbb.org</a></li>
+          <li>
+            <strong>Address:</strong>
+            <address>
+              Center for the Study of Photoemission and Bright Beams<br />
+              916 East Loma Vista Drive<br />
+              Tempe, AZ 85282
+            </address>
+          </li>
+        </ul>
+      </section>
+    </div>
   </main>
 
-  <div id="footer"></div>
+  <footer id="footer"></footer>
 
   <script src="js/includes.js"></script>
 </body>
+</html>
